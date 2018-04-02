@@ -1,4 +1,3 @@
-class User < ActiveRecord::Base
-  has_many :pets
-  has_secure_password
+class Pet < ActiveRecord::Base
+  belongs_to :user
 end
