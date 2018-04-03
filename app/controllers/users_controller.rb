@@ -1,7 +1,7 @@
-class UserController < ApplicationController
+class UsersController < Sinatra::Base
 
-get "/signup" do
+get "/users/signup" do
   erb :signup
-end 
+end
 
 end

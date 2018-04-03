@@ -1,3 +1,3 @@
-class PetController < ApplicationController
+class PetsController < ApplicationController
 
 end
