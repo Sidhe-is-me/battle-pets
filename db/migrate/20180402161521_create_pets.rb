@@ -5,7 +5,7 @@ class CreatePets < ActiveRecord::Migration
       t.string :family
       t.string :zone_caught
       t.integer :hit_chance
-      t.interger :user_id
+      t.integer :user_id
     end
   end
 end
