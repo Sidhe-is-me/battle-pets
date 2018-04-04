@@ -2,6 +2,10 @@ Here are all your pets that you have collected on your journey so far!
 
 <ol>
 <% @pets.all.each do |p| %>
-
+<%= p.id%>
+<%= p.name%>
+<%= p.family%>
 <% end %>
 </ol>
+
+<a href="/pets/create_pet">Add a Pet</a>
